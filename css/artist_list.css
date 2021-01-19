@@ -1,0 +1,41 @@
+a{
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid blue;
+  position: sticky;
+  z-index:3;
+  top: 0;
+  padding: 3px;
+}
+
+
+.options{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  margin: 2% 5px;
+  width: 45%;
+  height: 30vh;
+}
+.image{
+  overflow: hidden;
+  height: 25vh;
+  width: 100%;
+}
+.image img{
+  transition: 0.5s;
+  width: 100%;
+}
+.image img:hover{
+  transform: scale(1.06);
+}
