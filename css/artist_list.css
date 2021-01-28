@@ -1,5 +1,10 @@
+body{
+  margin: 0;
+  background-image: linear-gradient(rgb(75, 0, 125), rgb(128, 18, 26));
+}
 a{
   text-decoration: none;
+  color: black;
 }
 
 header{
@@ -26,6 +31,17 @@ header{
   margin: 2% 5px;
   width: 45%;
   height: 30vh;
+  background-color: grey;
+  
+}
+.boxtext{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+p{
+  margin: 0;
+  color: rgb(122, 231, 199);
 }
 .image{
   overflow: hidden;

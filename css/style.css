@@ -4,6 +4,13 @@ body{
 
 a{
   text-decoration: none;
+  color: black;
+}
+h2{
+  font-size: 4rem;
+  padding: 1rem;
+  margin: 0;
+  color: rgb(236, 11, 67);
 }
 
 header{
@@ -15,6 +22,8 @@ header{
   position: sticky;
   z-index:3;
   top: 0;
+  background-color: white;
+  height: 10vh;
 }
 
 .top{
@@ -41,9 +50,6 @@ header{
   font-size: 1.5rem;
 }
 
-
-
-
 .main{
   display: flex;
   flex-direction: column;
@@ -55,17 +61,49 @@ header{
   flex-direction: column;
   align-items: center;
   border: 1px solid blue;
+  justify-content: center;
+  height: 90vh;
+  padding: 5vh 0;
+}
+.art h1{
+  padding: 25%;
+}
+.art p{
+  width: 50%;
+  font-size: 3rem;
+  color: rgb(122, 231, 199);
+  text-align: center;
+}
+.about{
+  background-image: linear-gradient(rgb(82, 5, 10),rgb(75, 0, 125) );
+}
+
+.whoami{
+  background-image: linear-gradient(rgb(75, 0, 125), rgb(128, 18, 26));
+}
+.hargy{
+  display: flex;
+  /* justify-content: space-between; */
+  background-image: url("../images/hargy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
 .buttons{
   display: flex;
-  justify-content: center;
-
 }
 .button{
   border: 2px solid darkgray;
   background-color: grey;
-  color: blue;
+  color: rgb(122, 231, 199);
   padding: 10px;
   margin: 10px; 
+}
+
+footer{
+  background-color: grey;
+  height: 5vh;
+  align-items: center;
 }
