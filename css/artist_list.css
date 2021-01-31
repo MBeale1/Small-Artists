@@ -6,7 +6,9 @@ a{
   text-decoration: none;
   color: black;
 }
-
+a:hover{
+  color: rgb(122, 231, 199);
+}
 header{
   display: flex;
   align-items: center;
@@ -16,8 +18,11 @@ header{
   z-index:3;
   top: 0;
   padding: 3px;
+  background-color: white;
 }
-
+.top{
+  padding: 10px;
+}
 
 .options{
   display: flex;
