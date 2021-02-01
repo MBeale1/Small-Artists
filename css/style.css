@@ -30,7 +30,7 @@ header{
 }
 
 .top{
-  width: 50vw;
+  width: 33vw;
   display: flex;
   justify-content: space-between;
   margin: 5px;
@@ -105,8 +105,12 @@ header{
   margin: 10px; 
 }
 
-footer{
-  background-color: grey;
-  height: 5vh;
-  align-items: center;
+@media screen and (max-width: 540px){
+  .gone{
+    display: none;
+  }
+  .main p{
+    font-size: 2rem;
+    width: 75%;
+  }
 }
